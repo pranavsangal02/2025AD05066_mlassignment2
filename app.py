@@ -245,7 +245,18 @@ with tab3:
         st.dataframe(
             table.style.highlight_max(axis=0, color="#c8e6c9").format("{:.4f}"),
             use_container_width=True)
-        st.bar_chart(table[["Accuracy", "AUC", "F1", "MCC"]])
+        chart_cols = ["Accuracy", "AUC", "F1", "MCC"]
+        chart_data = table[chart_cols]
+        fig3, ax3 = plt.subplots(figsize=(10, 4.5))
+        x = np.arange(len(chart_data))
+        width = 0.8 / len(chart_cols)
+        for i, col in enumerate(chart_cols):
+            ax3.bar(x + i * width, chart_data[col], width, label=col)
+        ax3.set_xticks(x + width * (len(chart_cols) - 1) / 2)
+        ax3.set_xticklabels(chart_data.index, rotation=15, ha="right")
+        ax3.set_ylim(0, 1)
+        ax3.legend(loc="lower right", ncol=len(chart_cols))
+        st.pyplot(fig3, use_container_width=True)
         st.caption(f"Threshold applied: {threshold:.2f}. "
                    "AUC is threshold-independent and does not change.")
 
