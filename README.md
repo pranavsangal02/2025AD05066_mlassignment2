@@ -5,10 +5,10 @@ Machine Learning - Assignment 2
 
 | | |
 |---|---|
-| **Student** | *<your name>* |
+| **Student** | *Pranav Sangal* |
 | **BITS ID** | *2025AD05066* |
-| **GitHub repository** | *<paste your repo URL>* |
-| **Live Streamlit app** | *<paste your Streamlit Cloud URL>* |
+| **GitHub repository** | *[https://github.com/pranavsangal02/2025AD05066_mlassignment2](https://github.com/pranavsangal02/2025AD05066_mlassignment2) * |
+| **Live Streamlit app** | *[<paste your Streamlit Cloud URL>](https://2025ad05066mlassignment2-etewr3wacfjhups4yvqwhc.streamlit.app/)* |
 
 ---
 
@@ -75,7 +75,7 @@ standardised. Encoding expands the feature space from 17 to 75 columns.
 
 ## c. GitHub repository link
 
-*<paste your repo URL>*
+*[<paste your repo URL>](https://github.com/pranavsangal02/2025AD05066_mlassignment2)*
 
 ```
 project-folder/
@@ -145,7 +145,7 @@ AUC is computed from `predict_proba`, not from hard labels. All metrics use the 
 
 ## Streamlit application
 
-**Live app:** *<paste your Streamlit Cloud URL>*
+**Live app:** *[<paste your Streamlit Cloud URL>](https://2025ad05066mlassignment2-etewr3wacfjhups4yvqwhc.streamlit.app/)*
 
 | Required feature | Where it appears |
 |---|---|
