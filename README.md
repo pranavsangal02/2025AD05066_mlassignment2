@@ -145,7 +145,7 @@ AUC is computed from `predict_proba`, not from hard labels. All metrics use the 
 
 ## Streamlit application
 
-**Live app:** *[<paste your Streamlit Cloud URL>](https://2025ad05066mlassignment2-etewr3wacfjhups4yvqwhc.streamlit.app/)*
+**Live app:** *[(https://2025ad05066mlassignment2-etewr3wacfjhups4yvqwhc.streamlit.app/](https://2025ad05066mlassignment2-etewr3wacfjhups4yvqwhc.streamlit.app/)₹)*
 
 | Required feature | Where it appears |
 |---|---|
