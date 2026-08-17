@@ -86,8 +86,8 @@ def score(y_true, y_pred, y_proba):
 # Header
 # --------------------------------------------------------------------------- #
 st.title("Online Shoppers Purchasing Intention - Model Comparison")
-st.caption("M.Tech (AIML), BITS Pilani WILP | Machine Learning Assignment 2 | "
-           "Binary classification, 5 models, held-out test set")
+##st.caption("M.Tech (AIML), BITS Pilani WILP | Machine Learning Assignment 2 | "
+##           "Binary classification, 5 models, held-out test set")
 
 models, missing = load_models()
 if missing:
