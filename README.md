@@ -8,9 +8,9 @@ Machine Learning - Assignment 2
 | **Student** | *Pranav Sangal* |
 | **BITS ID** | *2025AD05066* |
 | **GitHub repository** | *[https://github.com/pranavsangal02/2025AD05066_mlassignment2](https://github.com/pranavsangal02/2025AD05066_mlassignment2) * |
-| **Live Streamlit app** | *[<paste your Streamlit Cloud URL>](https://2025ad05066mlassignment2-etewr3wacfjhups4yvqwhc.streamlit.app/)* |
+| **Live Streamlit app** | *([https://2025ad05066mlassignment2-etewr3wacfjhups4yvqwhc.streamlit.app](https://2025ad05066mlassignment2-etewr3wacfjhups4yvqwhc.streamlit.app/)/)* |
 
----
+---  
 
 ## a. Problem statement
 
